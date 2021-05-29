@@ -1,11 +1,11 @@
 export function RepositoryItem(props) {
-  const { name, description, link} = props.repository;
+  const { name, description, html_url} = props.repository;
 
   return (
     <li>
-      <strong>{ name ?? 'Empty'}</strong>
+      <strong>{ name }</strong>
       <p>{ description }</p>
-      <a href={ link }>
+      <a href={ html_url }>
         Acessar repositório
       </a>
     </li>
