@@ -30,3 +30,17 @@ yarn add webpack webpack-cli webpack-dev-server -D
 configurar webpack.config.js web
 
 yarn webpack
+
+## Typescript
+
+```sh
+npx -p typescript tsc --init
+
+fazer o babel entender typescript
+npm install @babel/preset-typescript -D
+
+npm install @types/react-dom -D
+npm install @types/react -D
+
+
+```
