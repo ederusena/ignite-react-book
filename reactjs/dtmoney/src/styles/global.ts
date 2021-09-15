@@ -90,7 +90,7 @@ export const GlobalStyle = createGlobalStyle`
   transition: filter 0.2s ease-in-out;
 
   &:hover {
-    filter: brightness(0.8);
+    filter: brightness(0.5) sepia(1) hue-rotate(-20deg) saturate(15);
   }
 }
 `;
